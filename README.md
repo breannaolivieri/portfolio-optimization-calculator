@@ -24,6 +24,13 @@ A Python-based portfolio optimization tool that helps investors build optimal in
 "```bash"
 pip3 install yfinance pandas numpy scipy matplotlib
 
+## Usage
+- Basic Portfolio Optimizer
+  - python3 portfolio_optimizer.py
+- Runs optimization on a pre-defined set of stocks (AAPL, MSFT, GOOGL, AMZN, JPM).
+- Interactive Portfolio Optimizer
+  - python3 interactive_optimizer.py
+
 ## How It Works
 
 1. **Data Collection:** Downloads 3 years of historical stock price data
