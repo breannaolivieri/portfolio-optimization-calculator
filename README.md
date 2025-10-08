@@ -21,34 +21,7 @@ A Python-based portfolio optimization tool that helps investors build optimal in
 
 1. Clone this repository
 2. Install required packages:
-"```bash"
+```bash
 pip3 install yfinance pandas numpy scipy matplotlib
 
-## Usage
-- Basic Portfolio Optimizer
-  - python3 portfolio_optimizer.py
-- Runs optimization on a pre-defined set of stocks (AAPL, MSFT, GOOGL, AMZN, JPM).
-- Interactive Portfolio Optimizer
-  - python3 interactive_optimizer.py
 
-## How It Works
-
-1. **Data Collection:** Downloads 3 years of historical stock price data
-2. **Return Calculation:** Computes annualized returns and covariance matrix
-3. **Optimization:** Uses Sequential Least Squares Programming (SLSQP) to maximize the Sharpe ratio
-4. **Visualization:** Generates allocation chart showing optimal investment percentages
-
-## Sample Output
-
-- Expected Annual Return: Shows predicted yearly returns
-- Expected Volatility: Indicates portfolio risk level
-- Sharpe Ratio: Measures risk-adjusted returns (higher is better)
-- Portfolio Allocation Chart: Visual breakdown of recommended investments
-
-## Skills Demonstrated
-
-- Quantitative finance and Modern Portfolio Theory
-- Optimization algorithms (convex optimization)
-- Statistical analysis and risk modeling
-- API integration for financial data
-- Data visualization
